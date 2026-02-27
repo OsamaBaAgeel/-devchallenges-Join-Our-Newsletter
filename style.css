@@ -46,6 +46,7 @@ p
     font-size: 20px;
     text-align: center;
     font-weight: 400;
+    color: #6C727F;
 }
 .content
 {
@@ -79,6 +80,7 @@ p
     padding: 15px;
     border: 1px solid #E5E7EB;
     margin-bottom: 15px;
+    color: #394150;
 }
 .sub_button
 {
@@ -96,7 +98,8 @@ p
 }
 .form-card p
 {
-    padding-top: 5px;
-    font-size: 14px;
-    font-weight: 400;
+    color: #6C727F;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
 }
