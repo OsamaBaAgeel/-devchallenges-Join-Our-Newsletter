@@ -10,3 +10,93 @@ FFFFFF body
 394150 text under submit button
 
 */
+
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img
+{
+    width: 48px;
+}
+h1
+{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+p
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.form-card
+{
+    background-color: #FFFFFF;
+    width: 500px;
+    padding: 20px 20px 10px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+.form-card form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.email-box
+{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #E5E7EB;
+    margin-bottom: 15px;
+}
+.sub_button
+{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #284BCE;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 15px;
+    border: none;
+}
+.sub_button:hover
+{
+    color: bisque;
+}
+.form-card p
+{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
